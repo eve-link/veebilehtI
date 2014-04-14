@@ -11,7 +11,7 @@ background-attachment:fixed;
 font-family:verdana, arial, sans-serif;
 }
 
-#header {
+.header {
 width:100%;
 background:#D2F0EE;
 position:fixed;
@@ -20,7 +20,7 @@ z-index:1;
 padding: 0 10%;
 }
 
-#logo{
+.logo{
 width:10%;
 padding:5px;
 float:left;
@@ -30,7 +30,7 @@ img{
 height:70px;
 }
 
-#nav {
+.nav {
 float:right;
 width:45%;
 margin-top:2%;
@@ -59,7 +59,7 @@ background:#20B2AA;
 
 }
 
-#container{
+.container{
 top:75px;
 width:80%;
 margin-right:auto;
@@ -70,7 +70,7 @@ background: rgba(255,255,255,0.3);
 overflow:hidden;
 }
 
-#slider{
+.slider{
 padding:15px;
 margin-top:60px;
 height:189px;
@@ -78,7 +78,7 @@ overflow:hidden;
 
 }
 
-#slider img {
+.slider img {
 margin-left:7%;
 position:relative;
 height: 200px;
@@ -86,7 +86,7 @@ width:85%;
 border-radius:5px;
 }
 
-#news, #content, #footer{
+.news, .content, .footer{
 clear:both;
 }
 
@@ -115,14 +115,14 @@ margin-left:2%;
 margin-bottom:25px;
 }
 
-#footer {
+.footer {
 width:100%;
 border-top:1px solid black;
 padding: 20px 10%;
 border-radius:3px;
 }
 
-#footer a:hover{
+.footer a:hover{
 background:#20B2AA;
 }
 

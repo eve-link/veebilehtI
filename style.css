@@ -21,7 +21,7 @@ padding: 0 10%;
 }
 
 .logo{
-width:10%;
+width:80px;
 padding:5px;
 float:left;
 }
@@ -36,17 +36,16 @@ width:45%;
 margin-top:2%;
 }
 
-li,ul{
+.nav li,ul{
 padding:8px;
 text-align:center;
 display:inline-block;
 list-style-type:none;
 border-right:1px solid black
 }
-
-ul { border: 0px solid #000;
- }
-
+ul, li{ 
+border: 0px solid #000;
+}
 
 a{
 text-decoration:none;
@@ -56,7 +55,28 @@ display:inline-block;
 
 a:hover{
 background:#20B2AA;
+}
 
+tr, td{
+border:1px solid black
+}
+
+pre, code {
+padding:2%;
+border:1px solid black;
+width:85%;
+}
+
+dl, dt{
+padding:2px;
+}
+
+.content ol, li {
+padding:2px;
+}
+
+.content ul, li{
+padding:2px;
 }
 
 .container{
@@ -70,12 +90,24 @@ background: rgba(255,255,255,0.3);
 overflow:hidden;
 }
 
+.content {
+	padding: 0 77px;
+}
+.content img {
+margin-left:20px;
+height:200px;
+width:300px;
+}
+
+p {
+padding:2%;
+}
+
 .slider{
 padding:15px;
 margin-top:60px;
 height:189px;
 overflow:hidden;
-
 }
 
 .slider img {
@@ -127,7 +159,6 @@ background:#20B2AA;
 }
 
 .box3{
-padding:0%;
 float:left;
 width:23%;
 border-radius:3px;
@@ -136,22 +167,37 @@ padding-bottom: 15px;
 }
 
 h1 {
-margin-left:2%;
-margin-top:2%;
+margin-top:1%;
 font-family: Arial;
-font-size:40px;
 color:rgba(255,255,255,0.8);
-padding:2%;
 border-top:1px solid black;
 }
 
 h2 {
-margin-left:2%;
 margin-top:2%;
 font-family: Arial;
-font-size:20px;
 color:black;
-padding:2%;
+color:rgba(255,255,255,0.8);
+}
+
+h3 {
+margin-top:1%;
+color:rgba(255,255,255,0.8);
+}
+
+h4 {
+margin-top:1%;
+color:rgba(255,255,255,0.8);
+}
+
+h5 {
+margin-top:1%;
+color:rgba(255,255,255,0.8);
+}
+
+h6 {
+margin-top:1%;
+color:rgba(255,255,255,0.8);
 }
 
 .vorm input{float:right;}

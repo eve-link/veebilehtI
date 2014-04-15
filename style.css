@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: 'url(http://www.upload.ee/image/3950018/1.jpg);'
+  background-image: url(http://www.upload.ee/image/3950018/1.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -20,7 +20,7 @@ body {
   padding: 0 10%;
 }
 
-.logo {
+.header .logo {
   width: 80px;
   padding: 5px;
   float: left;
@@ -52,7 +52,6 @@ a{
   color: black;
   display: inline-block;
 }
-
 a:hover {
   background: #20B2AA;
 }
@@ -167,35 +166,10 @@ p {
 }
 
 h1 {
-  margin-top: 1%;
-  font-family: Arial;
-  color: rgba(255,255,255,0.8);
   border-top: 1px solid black;
 }
 
-h2 {
-  margin-top: 2%;
-  font-family: Arial;
-  color: black;
-  color: rgba(255,255,255,0.8);
-}
-
-h3 {
-  margin-top: 1%;
-  color: rgba(255,255,255,0.8);
-}
-
-h4 {	
-  margin-top: 1%;
-  color: rgba(255,255,255,0.8);
-}
-
-h5 {
-  margin-top: 1%;
-  color: rgba(255,255,255,0.8);
-}
-
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin-top: 1%;
   color: rgba(255,255,255,0.8);
 }

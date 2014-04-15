@@ -4,6 +4,7 @@
 }
 
 body {
+  margin: 0;
   background-image: url(http://www.upload.ee/image/3950018/1.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -41,8 +42,10 @@ body {
   margin-top: 2%;
 }
 .nav ul {
+  margin: 0;
 }
-.nav ul,li {
+.nav ul,
+.nav  ul li {
   padding: 8px;
   text-align: center;
   display: inline-block;
@@ -155,6 +158,12 @@ p {
   margin-right: 2%;
   margin-left: 2%;
   margin-bottom: 25px;
+}
+
+.box a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
 }
 
 
